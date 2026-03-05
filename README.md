@@ -13,7 +13,8 @@ FROM 'C:\Users\<tu-usuario>\Desktop\Clientes.csv'
 FROM 'C:\Users\<tu-usuario>\Desktop\Transacciones.csv'
 ```
 
-Los CSV se exportan desde el Excel `Ubimia - Prueba Técnica Análisis.xls.xlsx`, pestañas "BD prueba Clientes" y "BD prueba Transacciones", con separador `;` y codificación UTF-8.
+Ya que la importación mediante Excel es menos transparente (y hay que tener el provider en el equipo, sino no funciona), generé los .csv desde el Excel brindado por uds (.csv no incluidos en vuestro zip). 
+Tampoco incluyo los csv yo aquí, asumo uds. los tienen/generan en el momento. Si se precisa generarlos, CSV se pueden generar desde el Excel `Ubimia - Prueba Técnica Análisis.xls.xlsx`, guardando para cada una de las sheet "BD prueba Clientes" y "BD prueba Transacciones", en Archivo->Guardar como->CSV; . En el SQL que les brindo se asume separador `;` y codificación UTF-8 pra los CSV.
 
 Para ejecutar: abrir SSMS, conectarse, crear o seleccionar una base de datos y correr el script completo con F5.
 
